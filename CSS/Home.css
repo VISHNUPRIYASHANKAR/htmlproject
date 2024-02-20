@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: montserrat;
+     background:url(https://www.tlc-ltd.co.uk/wp-content/uploads/2017/06/event-management-companies-manchester-4.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+
+}
+*{
+    margin: 0;
+    padding:0;
+}
+
+.sticky nav{
+    position: sticky;
+    top: 0px;
+    background-color: #3f3f3f;
+    /* background-color: rgba(0, 0, 0, 0.333); */
+    box-shadow:0 8px 32px 0 rgba(86, 86, 86, 0.37);
+    border-radius: 30px;
+    height:60px;
+    width:100%;
+}
+label.logo{
+    color: #ffffff;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 60px;
+    padding: 0 100px;
+    font-weight: bold;
+
+}
+nav ul{
+    
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    position: sticky;
+    top: 0px;
+    display: inline-block;
+    line-height: 60px;
+    margin:0 5px;
+}
+nav ul li a{
+    
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active,a:hover{
+    background: #1b9bff;
+    transform: scale(1.3);
+    transition: 0.6s;
+}
+.box{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    background: #ff8c00;
+    transition: .5s;
+} 
+.search{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    
+}
+.input{
+    padding: 7px 13px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    border-radius: 20px;
+}
+footer{
+    background-color: black;
+    padding: top 50px;
+    color: #ffffff;
+}
+.container{
+    width:1140px;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+}
+.foot{
+    width: 33.3%;
+}
+h3{
+   font-size: 28px;
+   margin-bottom: 15px;
+   text-align: center;
+}
+.follow us li{
+    width: auto;
+    text-align: center;
+
+}
+.follow us{
+    width: 190px;
+    margin: auto;
+    padding: 7px;
+}
+.contact{
+    text-align: center5;
+}
+.home{
+    /* background-color: #070303; */
+    background-color: rgba(225, 225, 225, 0.333);
+    border-radius: 30px;
+}
+.MM{
+    background: #1b9bff;
+    transform: scale(1.3);
+    transition: 0.6s;
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    
+}
+.DOT{
+    background: #8c8c8c;
+    transform: scale(1.3);
+    transition: 0.6s;
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    
+}
